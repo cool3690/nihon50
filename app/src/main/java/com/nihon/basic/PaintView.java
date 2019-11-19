@@ -86,8 +86,6 @@ public class PaintView extends View {
 
     public void clear() {
        backgroundColor = DEFAULT_BG_COLOR;
-        //   backgroundColor = 0x00AAAAAA;
-
         paths.clear();
          normal();
         invalidate();
@@ -96,7 +94,6 @@ public class PaintView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         canvas.save();
-        //mCanvas.drawColor(backgroundColor);
        mCanvas.drawColor(0x00AAAAAA);
         for (FingerPath fp : paths) {
             mPaint.setColor(fp.color);
