@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">日語50音</string>
+    <string name="normal">normal</string>
+    <string name="clear">clear</string>
+    <string name="title_activity_basich">片假名</string>
+    <string name="title_activity_menu">主選單</string>
+</resources>
